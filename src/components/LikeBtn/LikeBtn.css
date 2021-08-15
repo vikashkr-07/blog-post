@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .like-btn {
+    background-color: #999999;
+    border: 1px solid grey;
+    border-radius: 4px;
+    font-size: 20px;
+    color: black;
+    margin: 2px 5px;
+    cursor: pointer;
+  }
+  
+  .like-btn:active {
+    transform: scale(0.92);
+  }
+  
+  .btn-box {
+    min-width: 120px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-items: space-around;
+  }
